@@ -1,6 +1,6 @@
 cask "fit-map" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.15.47"
+  sha256 "32cb4d38311df533aaf85c1d0136667e57ff7d21095f2d5880b84826336e1479"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/map@v#{version}/fit-map-#{version}-darwin-arm64.zip"
   name "Forward Impact Map"
