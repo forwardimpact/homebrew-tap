@@ -1,6 +1,6 @@
 cask "fit-pathway" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.25.64"
+  sha256 "c726988ae13c6efbf5862e805cb42f0e5b6384b3844a5466aaccf8e65cdbd59e"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/pathway@v#{version}/fit-pathway-#{version}-darwin-arm64.zip"
   name "Forward Impact Pathway"
