@@ -1,6 +1,6 @@
 cask "fit-landmark" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.1.27"
+  sha256 "0964905c68f658163b8853ceffa6b04dbc205877bfdba56562ec97748b43f5c4"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/landmark@v#{version}/fit-landmark-#{version}-darwin-arm64.zip"
   name "Forward Impact Landmark"
