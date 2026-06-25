@@ -1,6 +1,6 @@
 cask "fit-summit" do
-  version "0.1.28"
-  sha256 "31fb0c4116d1ddde0f7b370f088449a0828c06f0485c5b2b93f1851aae0f211d"
+  version "0.1.29"
+  sha256 "350c9c60c47599f46a2e3ea94b4d5b5de10fda253dd3d8cc06bf02ad861f041d"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/summit@v#{version}/fit-summit-#{version}-darwin-arm64.zip"
   name "Forward Impact Summit"
