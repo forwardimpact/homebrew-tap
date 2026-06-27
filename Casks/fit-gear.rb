@@ -39,6 +39,7 @@ cask "fit-gear" do
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-unary"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-tiktoken"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-download-bundle"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-wiki"
 
   livecheck do
     url :url
