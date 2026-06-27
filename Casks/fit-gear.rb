@@ -1,6 +1,6 @@
 cask "fit-gear" do
-  version "0.1.8"
-  sha256 "f532be05b4aa9b8da4d4e9230f20ca2fe9ddfe977938e7d74fb650ec07c0548e"
+  version "0.1.9"
+  sha256 "6114323c7cf9295aecc25eb7104da1462d357843119b4910bbf1fab5f6be4931"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/gear@v#{version}/fit-gear-#{version}-darwin-arm64.zip"
   name "Forward Impact Gear"
