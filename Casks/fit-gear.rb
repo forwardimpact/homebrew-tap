@@ -21,7 +21,7 @@ cask "fit-gear" do
   # Library CLIs
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-codegen"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-terrain"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-eval"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-harness"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-doc"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-rc"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-xmr"
@@ -40,6 +40,9 @@ cask "fit-gear" do
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-tiktoken"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-download-bundle"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-wiki"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-benchmark"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-pack"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/coaligned"
 
   livecheck do
     url :url
