@@ -1,6 +1,6 @@
 cask "fit-gear" do
-  version "0.1.21"
-  sha256 "7b0631147b75d3b05168e8ca1601c06ddfa8ad7b9cdb4816a82264f4854f440e"
+  version "0.1.22"
+  sha256 "381e399f8da7d66f9e0888c12703c10a42c47a3482cfa403bbbc46a490283bb3"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/gear@v#{version}/fit-gear-#{version}-darwin-arm64.zip"
   name "Forward Impact Gear"
@@ -15,7 +15,7 @@ cask "fit-gear" do
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-svcgraph"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-svcmcp"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-svcpathway"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-svctrace"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-svcspan"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-svcvector"
 
   # Library CLIs
@@ -30,15 +30,10 @@ cask "fit-gear" do
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-svscan"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-trace"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-visualize"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-query"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-subjects"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-process-graphs"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-process-resources"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-process-vectors"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-search"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-process"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-rag"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-unary"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-tiktoken"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-download-bundle"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-wiki"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-benchmark"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-pack"
