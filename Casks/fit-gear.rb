@@ -1,6 +1,6 @@
 cask "fit-gear" do
-  version "0.2.0"
-  sha256 "50a52721b551b918f88e83c0690f18b30713f1030e0de10a97d3895ba2cab97e"
+  version "0.3.0"
+  sha256 "3c9003210433813f6f007697c0cd30febf407445f5cf619c92c81a70e87561c6"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/gear@v#{version}/fit-gear-#{version}-darwin-arm64.zip"
   name "Forward Impact Gear"
@@ -37,7 +37,7 @@ cask "fit-gear" do
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/gemba-wiki"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/gemba-benchmark"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-pack"
-  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/coaligned"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/jidoka"
 
   livecheck do
     url :url

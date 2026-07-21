@@ -1,16 +1,16 @@
 class FitGear < Formula
   desc "Services and library CLIs for Forward Impact products"
   homepage "https://www.forwardimpact.team/gear/"
-  version "0.2.0"
+  version "0.3.0"
 
   on_linux do
     on_intel do
       url "https://github.com/forwardimpact/monorepo/releases/download/gear@v#{version}/fit-gear-linux-x64.tar.gz"
-      sha256 "f0a450759bcc14b8dc5a9ccdae9e4ffdcf6966653ea5964d1c0db1d4b6210bf6"
+      sha256 "cdb52281a83e1273706dcac8cc7f3ec0170c29d1603036fd2fa1ef3627f99376"
     end
     on_arm do
       url "https://github.com/forwardimpact/monorepo/releases/download/gear@v#{version}/fit-gear-linux-arm64.tar.gz"
-      sha256 "9aef0dc3751399bc755a25218d5de68e22ca21bc9c23ed391e3fe123051a4498"
+      sha256 "cdc199d27b5e0fd24fac24223684d2c14e14abd5ea7af41e6389c38140405a4c"
     end
   end
 
