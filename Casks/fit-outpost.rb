@@ -1,6 +1,6 @@
 cask "fit-outpost" do
-  version "3.12.0"
-  sha256 "8656dd7b591496f8976dbee0852beabfc9a7a36f1ed0676b27ca07f36d3d8e5a"
+  version "3.12.1"
+  sha256 "7a8c39c7261822c88ee75f74dea323a1278790e528465abbeede39b96494231a"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/outpost@v#{version}/fit-outpost-#{version}-darwin-arm64.zip"
   name "Forward Impact Outpost"
