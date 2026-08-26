@@ -1,6 +1,6 @@
 cask "fit-landmark" do
-  version "0.1.31"
-  sha256 "089ad323c2a0657dc5da992299c6d69ecc73c6f91899d16c93ef7a7e38abdb44"
+  version "0.1.32"
+  sha256 "8d8ac9d8700a8591a38c6a746c0d297efb11ddf33b1b6a828db47b0bc0fd2b3b"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/landmark@v#{version}/fit-landmark-#{version}-darwin-arm64.zip"
   name "Forward Impact Landmark"
@@ -10,6 +10,10 @@ cask "fit-landmark" do
   depends_on arch: :arm64
 
   app "fit-landmark.app", target: "Forward Impact/fit-landmark.app"
+
+  # gRPC services
+
+  # Library CLIs
   binary "#{appdir}/Forward Impact/fit-landmark.app/Contents/MacOS/fit-landmark"
 
   livecheck do
