@@ -1,6 +1,6 @@
 cask "fit-gear" do
-  version "0.3.4"
-  sha256 "df8508ec8b805ddaa0cc33f61cfa4b0618dd73dfb1f0f249245cbf74cc230397"
+  version "0.3.5"
+  sha256 "5114873482d542667e771b0f06e22bc25fa32c0ae8b59e31ae6dffb331232ce1"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/gear@v#{version}/fit-gear-#{version}-darwin-arm64.zip"
   name "Forward Impact Gear"
@@ -25,6 +25,7 @@ cask "fit-gear" do
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-doc"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-rc"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/gemba-xmr"
+  binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/gemba-watchdog"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-storage"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-logger"
   binary "#{appdir}/Forward Impact/fit-gear.app/Contents/MacOS/fit-svscan"
