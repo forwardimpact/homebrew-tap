@@ -1,6 +1,6 @@
 cask "fit-guide" do
-  version "0.1.54"
-  sha256 "debe92f740fe0ac37e064f03fcaaf0f2aa3e845903839593208e73a49e031fbc"
+  version "0.1.55"
+  sha256 "881fd69bd9d73463d2b32dcc3ca8fc601f1c121c9f1bdf8709a31c3980cea3b9"
 
   url "https://github.com/forwardimpact/monorepo/releases/download/guide@v#{version}/fit-guide-#{version}-darwin-arm64.zip"
   name "Forward Impact Guide"
